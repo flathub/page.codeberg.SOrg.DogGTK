@@ -44,12 +44,12 @@
                 {
                     "type": "git",
                     "url": "https://codeberg.org/SOrg/Doggo.git",
-                    "tag": "3.1",
+                    "tag": "3.2",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "([\\d.]+)$"
                     },
-                    "commit": "2235c08c41e913b662371541b184a9d9a2dc4415"
+                    "commit": "18d7d4142847d541f4294783c88e84555a226c59"
                 }
             ]
         }
