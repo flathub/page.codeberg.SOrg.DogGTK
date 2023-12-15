@@ -1,6 +1,6 @@
 app-id: page.codeberg.SOrg.DogGTK
 runtime: org.gnome.Platform
-runtime-version: "45"
+runtime-version: '45'
 sdk: org.gnome.Sdk
 command: doggo
 finish-args:
@@ -33,8 +33,8 @@ modules:
     sources:
       - type: git
         url: https://codeberg.org/SOrg/Doggo.git
-        tag: "3.2-1"
+        tag: '3.2'
         x-checker-data:
           type: git
           tag-pattern: ([\d.]+)$
-        commit: 1199ef92e28067ed1c5a395ee7d2f2c6822e4231
+        commit: 18d7d4142847d541f4294783c88e84555a226c59
