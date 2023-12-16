@@ -33,7 +33,7 @@ modules:
     sources:
       - type: git
         url: https://codeberg.org/SOrg/Doggo.git
-        tag: 3.3
+        tag: '3.3'
         x-checker-data:
           type: git
           tag-pattern: ([\d.]+)$
