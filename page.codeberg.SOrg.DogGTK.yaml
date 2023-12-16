@@ -1,6 +1,6 @@
 app-id: page.codeberg.SOrg.DogGTK
 runtime: org.gnome.Platform
-runtime-version: "45"
+runtime-version: '45'
 sdk: org.gnome.Sdk
 command: doggo
 finish-args:
@@ -27,14 +27,14 @@ modules:
       - type: git
         url: https://gitlab.gnome.org/jwestman/blueprint-compiler
         tag: v0.10.0
-  - name: dog
+  - name: doggo
     builddir: true
     buildsystem: meson
     sources:
       - type: git
         url: https://codeberg.org/SOrg/Doggo.git
-        tag: "3.2-1"
+        tag: 3.3
         x-checker-data:
           type: git
           tag-pattern: ([\d.]+)$
-        commit: 1199ef92e28067ed1c5a395ee7d2f2c6822e4231
+        commit: 874e4d8d3cda45a7ecb7512efc596847b3451243
