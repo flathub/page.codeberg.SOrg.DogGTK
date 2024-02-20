@@ -37,4 +37,4 @@ modules:
         x-checker-data:
           type: git
           tag-pattern: ([\d.]+)$
-        commit: b2160130206ab96e17df46b8ffb4bdb52a482742
+        commit: 98ff0d263276aa3b5e3a9e833c2dd47e8f366616
